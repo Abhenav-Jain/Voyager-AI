@@ -1,0 +1,35 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local Environment Variables & Secrets
+.env
+*.local
+
+# Database & SQLite files
+*.db
+*.sqlite3
+travel_planner.db
+
+# Models Cache & Large Checkpoints
+models_cache/*.keras
+models_cache/*.h5
+!models_cache/travel_vocab.pkl
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
