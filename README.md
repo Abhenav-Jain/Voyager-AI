@@ -1,6 +1,13 @@
 # VoyagerAI - Personalized Travel Itinerary Planner
 
+[![Deploy Status](https://img.shields.io/badge/Render-Live-success?style=for-the-badge&logo=render)](https://voyager-ai-n766.onrender.com)
+[![FastAPI](https://img.shields.io/badge/FastAPI-1.0.0-009688?style=for-the-badge&logo=fastapi)](https://voyager-ai-n766.onrender.com/docs)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://voyager-ai-n766.onrender.com)
+
 A full-stack, AI-powered web application that simplifies travel planning through intelligent automation, prompt engineering, and personalized recommendations. Built with a **React frontend**, **FastAPI backend**, and **Supabase / PostgreSQL integration**, it generates customized day-by-day itineraries tailored to user preferences, budget, pacing, and travel party style.
+
+🌐 **Live Application**: [https://voyager-ai-n766.onrender.com](https://voyager-ai-n766.onrender.com)  
+📖 **Interactive API Documentation (Swagger)**: [https://voyager-ai-n766.onrender.com/docs](https://voyager-ai-n766.onrender.com/docs)
 
 ---
 
