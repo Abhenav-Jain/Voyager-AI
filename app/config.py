@@ -26,8 +26,8 @@ class Settings:
     DATABASE_PATH: str = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "travel_planner.db")
     
     # Server Configuration
-    HOST: str = "127.0.0.1"
-    PORT: int = 8000
+    HOST: str = os.getenv("HOST", "0.0.0.0")
+    PORT: int = int(os.getenv("PORT", "8000"))
     CORS_ORIGINS: List[str] = ["*"]
 
 settings = Settings()
